@@ -1,0 +1,18 @@
+{
+	"type": "module",
+	"scripts": {
+		"test": "eslint && tsc"
+	},
+	"devDependencies": {
+		"@koffeine/eslint-config": "^49.3.0",
+		"eslint": "^10.8.1",
+		"globals": "^17.9.0",
+		"typescript": "^6.0.3"
+	},
+	"devEngines": {
+		"runtime": {
+			"name": "node",
+			"version": "24"
+		}
+	}
+}
