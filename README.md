@@ -1,11 +1,11 @@
-# Koffeine's node project template
+# Koffeine's vs-code project template
 
-Template for a Node.js project.
+Template for a VS Code project.
 
 ## Usage
 
 ```sh
-npx degit koffeine/templates/node <dir>
+npx degit koffeine/templates/vs-code <dir>
 
 cd <dir>
 
