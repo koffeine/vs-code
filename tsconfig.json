@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		// Modules
+		"module": "nodenext",
+		"moduleResolution": "nodenext",
+		"types": [],
+
+		// Emit
+		"noEmit": true,
+
+		// JavaScript Support
+		"allowJs": true,
+		"checkJs": true,
+
+		// Language and Environment
+		"target": "esnext",
+
+		// Completeness
+		"skipLibCheck": true
+	},
+	"exclude": [ "node_modules" ]
+}
