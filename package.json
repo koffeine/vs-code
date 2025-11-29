@@ -11,7 +11,29 @@
 		"icon.png"
 	],
 	"main": "./src/index.js",
-	"contributes": {},
+	"contributes": {
+		"commands": [
+			{
+				"command": "koffeine.replaceInFolder",
+				"title": "Replace in Folder..."
+			}
+		],
+		"menus": {
+			"commandPalette": [
+				{
+					"command": "koffeine.replaceInFolder",
+					"when": "false"
+				}
+			],
+			"explorer/context": [
+				{
+					"command": "koffeine.replaceInFolder",
+					"group": "4_search@20",
+					"when": "explorerResourceIsFolder"
+				}
+			]
+		}
+	},
 	"activationEvents": [],
 	"type": "module",
 	"scripts": {
@@ -20,6 +42,8 @@
 	},
 	"devDependencies": {
 		"@koffeine/eslint-config": "^48.9.0",
+		"@types/node": "^24.12.4",
+		"@types/punycode": "^2.1.4",
 		"@types/vscode": "^1.120.0",
 		"@vscode/vsce": "^3.9.1",
 		"eslint": "^10.4.0",
