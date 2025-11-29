@@ -3,7 +3,7 @@
 		// Modules
 		"module": "nodenext",
 		"moduleResolution": "nodenext",
-		"types": [],
+		"types": [ "node" ],
 
 		// Emit
 		"noEmit": true,
