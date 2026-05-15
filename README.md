@@ -1,16 +1,5 @@
-# Koffeine's vs-code project template
+# Koffeine
 
-Template for a VS Code project.
+Koffeine's VS Code extension
 
-## Usage
-
-```sh
-npx degit koffeine/templates/vs-code <dir>
-
-cd <dir>
-
-git init
-git add .
-
-npm ci
-```
+## Features
