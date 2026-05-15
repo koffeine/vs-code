@@ -1,8 +1,16 @@
 {
 	"name": "koffeine",
-	"version": "0.0.1",
+	"version": "1.0.0",
+	"description": "Koffeine's VS Code extension",
+	"publisher": "koffeine",
+	"displayName": "Koffeine",
+	"categories": [
+		"Other"
+	],
+	"icon": "./icon.png",
 	"files": [
-		"src"
+		"src",
+		"icon.png"
 	],
 	"main": "./src/index.js",
 	"contributes": {},
