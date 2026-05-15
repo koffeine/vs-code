@@ -14,10 +14,35 @@
 	],
 	"main": "./src/index.js",
 	"contributes": {
+		"configuration": {
+			"title": "Koffeine",
+			"properties": {
+				"koffeine.workspaceGroups": {
+					"description": "Workspace groups",
+					"type": "object",
+					"additionalProperties": {
+						"type": "array",
+						"items": {
+							"type": "string"
+						}
+					},
+					"default": {}
+				},
+				"koffeine.defaultWorkspaceGroupLabel": {
+					"description": "Default workspace group label",
+					"type": "string",
+					"default": "Other"
+				}
+			}
+		},
 		"commands": [
 			{
 				"command": "koffeine.replaceInFolder",
 				"title": "Replace in Folder..."
+			},
+			{
+				"command": "koffeine.openRecentWorkspace",
+				"title": "Open recent workspace..."
 			}
 		],
 		"menus": {
